@@ -1,0 +1,23 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #000000
+	text-decoration: none;
+}
+Body{
+	background-image: url("Moutain-Laurel-030416.jpg");
+	font-foamily: "Comic Sans MS", Helvetica, sans-serif;
+	font-size: 16px;
+	color: #344444;
+}
+h1 {
+	color: gray;
+	font-size: 26px;
+}
+img {
+	width: 50%;
+	height: auto;
+}
