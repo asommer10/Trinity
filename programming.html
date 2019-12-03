@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>My Sketch</title>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+void setup () {
+  size(500,500);
+}
+void draw () {
+  background(200,255,200);
+  //sun
+  fill(255,255,200);
+  quad(70,90,90,10,110,90,90,170);
+  quad(10,90,90,70,170,90,90,110);
+  quad(40,40,110,70,140,140,70,110);
+  quad(140,40,110,110,40,140,70,70);
+  ellipse(90,90,80,80);
+  //balloon
+  line(mouseX,mouseY,mouseX,mouseY-100);
+  strokeWeight(0);
+  fill(255,0,0);
+  ellipse(mouseX,mouseY-100,50,50);
+    //face
+  strokeWeight(.5);
+  fill(200,100,200);
+  surface.setTitle(mouseX+","+mouseY);
+    //hind legs
+  fill(255,245,175);
+  ellipse(218,465,50,60);
+  ellipse(282,465,50,60);
+      //feet
+  fill(220,140,80);
+  ellipse(205,495,38,15);
+  ellipse(295,495,38,15);
+  //body
+  fill(255,245,175);
+  ellipse(250,445,90,110);
+    //front legs
+  ellipse(222,468,30,60);
+  ellipse(278,468,30,60);
+      //feet
+  fill(220,140,80);
+  ellipse(219,495,38,15);
+  ellipse(281,495,38,15);
+  //hair
+  fill(200,130,20);
+  ellipse(250,333,160,185);
+  //ears
+  fill(255,225,175);
+  ellipse(208,290,30,30);
+  ellipse(292,290,30,30);
+  fill(225,170,140);
+  ellipse(208,290,10,10);
+  ellipse(292,290,10,10);
+  //face
+    //head
+  fill(255,225,175);
+  ellipse(250,330,105,120);
+  //eyebrows
+  fill(200,130,20);
+  rect(263,305,20,4);
+  rect(217,305,20,4);
+    //eyes
+  fill(255);
+  ellipse(227,323,30,20);
+  ellipse(273,323,30,20);
+  fill(0);
+  ellipse(227,323,20,20);
+  ellipse(273,323,20,20);
+    //nose
+  fill(225,170,140);
+  triangle(242,342,258,342,250,350);
+  line(250,350,250,360);
+    //mouth
+  arc(251,365,30,10,90,500);
+  
+  
+  
+}
+</head>
+<body>
+<script type="application/processing">
+
+<!--paste your entire processing code here-->
+
+</script>
+<canvas> </canvas>
+</body>
+</html>
